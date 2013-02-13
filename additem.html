@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="description" content="timestomper-add a stomp"/>
-	<meta name="keywords" content="add stomp, vfw project 1, timestomper"/>
+	<meta name="keywords" content="add stomp, vfw project 2, timestomper"/>
     <meta name="robots" content="noindex, nofollow"/>
     <meta name="viewport" content="user-scalable=no, width=device-width"/>
     <meta name="viewport" content="target-densitydpi=device-dpi"/>
@@ -19,7 +19,7 @@
     <title>Add A Stomp</title>
 </head>
 <body>
-	<h1>New<span>Stomp</span></h1>
+	<h1>New<span>stomp</span></h1>
     <form action="#" method="post">
     	<fieldset>
         	<legend>What event would you like to time-stamp?</legend>
@@ -31,7 +31,7 @@
                     <option value="arrival">the time you arrived at a location</option>
                 	<option value="departure">the time you left a location</option>
                 </select>          
-				<li><label for="ssure">How sure of time of event:</label><input type="range" name="ssure" min="1" max="10">not sure</li>  
+				<li><label for="ssure">How sure of time of event:</label><input type="range" name="ssure" min="1" max="10"></li>  
                	<li>preferred format:</li>
                     <ul>
     					<li><input type="radio" checked value="standard" id="standard" name="timeformat" />
@@ -44,12 +44,13 @@
                 <li><label for="sdate">event date:</label><input type="date" id="sdate" placeholder="2-1-2013"></li>
                 <li><label for="stime">event time:</label><input type="time" placeholder="12:01:00" id="stime"/></li>
                 <li><label for="stimestamp" >timestamp coming soon!</label><input type="submit" value="Timestamp" hidden /></li>
-            </ul>    
+            </ul>        
     	</fieldset>
-        <input type="submit" value="STOMP IT OUT" />  
+        <section>
+        	<small><a href="#">display data</a></small>
+        	<input type="submit" id="buton" value="STOMP IT OUT" />
+        	<small><a href="#">clear stored data </a></small>
+        </section>  
     </form>
-    <footer>
-    	<small><a href="#">clear stored data </a> or <a href="#">display data</a></small>
-    </footer>
 </body>
 </html>

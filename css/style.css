@@ -2,13 +2,7 @@ h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #F7ECC9;
 	text-align: center;
-	width: 70%;
-	margin-right: 15%;
-	margin-left: 15%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:contain;
-
+	background-color: #072111;
 }
 
 
@@ -24,12 +18,14 @@ span {
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 a {
-	margin-right: 36%;
-	margin-left: 36%;
+	color: rgba(235,41,24,1);
+	background-position: center;
+	text-align: center;
 }
 
 p {
 	text-align: center;
+	
 }
 h2 {
 	font-family: "Times New Roman", Times, serif;
@@ -38,16 +34,40 @@ h2 {
 }
 
 header {
-	margin-bottom: 20px;
+	margin-bottom: 10%;
 }
 
 
 nav {
-	border: thin dotted rgba(0,0,0,1);
 	background-color: #072111;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	margin-right: 40px;
 	margin-left: 40px;
-	padding-bottom: 16px;
+	margin-top: 10%;
+	text-align: center;
 }
+li {
+	list-style-type: square;
+}
+
+
+label {
+	display: block;
+}
+
+fieldset {
+	margin-right: 20%;
+	margin-left: 20%;
+	border: medium ridge #F7ECC9;
+}
+section {
+	text-align: center;
+}
+#buton {
+	background-color: #FEDE52;
+}
+#sstyle {
+	background-color: #FEDE52;
+}
+
