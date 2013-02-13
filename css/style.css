@@ -1,6 +1,53 @@
-/*  Title:
-    By   : Jeremy Criddle
-    For  :
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #F7ECC9;
+	text-align: center;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+
+}
 
 
-*/
+
+body {
+	background-color: #20421B;
+	color: #FFEBB8;
+	background-repeat: no-repeat;
+}
+span {
+	color: #EB2917;
+	vertical-align: sub;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+a {
+	margin-right: 36%;
+	margin-left: 36%;
+}
+
+p {
+	text-align: center;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #FEDE52;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+
+nav {
+	border: thin dotted rgba(0,0,0,1);
+	background-color: #072111;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-bottom: 16px;
+}
