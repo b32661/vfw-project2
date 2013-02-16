@@ -65,6 +65,11 @@ nav {
 	padding-top: 2px;
 	padding-bottom: 6px;
 }
+ul {
+	list-style-position: outside;
+	text-align: justify;
+}
+
 li {
 	list-style-type: square;
 }
@@ -85,3 +90,5 @@ fieldset {
 #sstyle {
 	background-color: #FEDE52;
 }
+
+input.hasFocus {background-color: rgba(255,204,0,1)};
