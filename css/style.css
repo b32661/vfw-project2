@@ -1,17 +1,32 @@
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #F7ECC9;
-	text-align: center;
 	background-color: #072111;
 }
 
 
 
 body {
+	background-color: #666666;
+	background-image: url(../img/large_leather.png);
+	background-repeat: repeat;
+}
+
+div {
 	background-color: #20421B;
 	color: #FFEBB8;
 	background-repeat: no-repeat;
+	text-align: center;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: fixed;
+	padding-bottom: 20%;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
 }
+
 span {
 	color: #EB2917;
 	vertical-align: sub;
@@ -30,7 +45,6 @@ p {
 h2 {
 	font-family: "Times New Roman", Times, serif;
 	color: #FEDE52;
-	text-align: center;
 }
 
 header {
@@ -45,7 +59,11 @@ nav {
 	margin-right: 40px;
 	margin-left: 40px;
 	margin-top: 10%;
-	text-align: center;
+	-webkit-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	-moz-box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	box-shadow: 3px 3px 1px 1px rgba(255,255,204,1);
+	padding-top: 2px;
+	padding-bottom: 6px;
 }
 li {
 	list-style-type: square;
@@ -57,17 +75,13 @@ label {
 }
 
 fieldset {
-	margin-right: 20%;
-	margin-left: 20%;
+	margin-right: 5%;
+	margin-left: 5%;
 	border: medium ridge #F7ECC9;
-}
-section {
-	text-align: center;
-}
+
 #buton {
 	background-color: #FEDE52;
 }
 #sstyle {
 	background-color: #FEDE52;
 }
-
