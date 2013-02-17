@@ -15,7 +15,7 @@ var sure = document.getElementById("sure");
 var clearData = document.getElementById("clear");
 var preferredFormat = document.getElementById("stomper").timeFormat;
 var send = document.getElementById("stomp");
-var sureSpan = sure.getAttribute("span");
+
 
 
 var captureName = function (){
@@ -64,5 +64,6 @@ clearData.addEventListener("click", clearStorage);
 send.addEventListener("click", sendForm);
 sure.addEventListener("change", captureSure);
 myEvent.addEventListener("change", captureMyEvent);
+// main code
 
-console.log(sureSpan);
+
