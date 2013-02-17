@@ -35,13 +35,8 @@ span {
 a {
 	color: rgba(235,41,24,1);
 	background-position: center;
-	text-align: center;
 }
 
-p {
-	text-align: center;
-	
-}
 h2 {
 	font-family: "Times New Roman", Times, serif;
 	color: #FEDE52;
@@ -66,7 +61,6 @@ nav {
 	padding-bottom: 6px;
 }
 ul {
-	list-style-position: outside;
 	text-align: justify;
 }
 
@@ -83,9 +77,6 @@ fieldset {
 	margin-right: 5%;
 	margin-left: 5%;
 	border: medium ridge #F7ECC9;
-
-#buton {
-	background-color: #FEDE52;
 }
 #sstyle {
 	background-color: #FEDE52;
