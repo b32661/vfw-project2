@@ -7,8 +7,7 @@ h1 {
 
 
 body {
-	background-color: #666666;
-	background-image: url(../img/large_leather.png);
+	background-image: url(../img/bkgTexture.png);
 	background-repeat: repeat;
 }
 
@@ -24,7 +23,9 @@ div {
 	padding-bottom: 20%;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	
+	-webkit-box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.5);
 }
 
 span {
