@@ -2,8 +2,8 @@
  *   Jeremy Criddle
  *   VFW 1302
  *   Project 2
- */  
- 
+ *  02-17-2013
+ */
  
  // declare variables
 var myEvent = document.getElementById("myEvent");
@@ -16,44 +16,42 @@ var clearData = document.getElementById("clear");
 var preferredFormat = document.getElementById("stomper").timeFormat;
 var send = document.getElementById("stomp");
 
+// functions
 
-
-var captureName = function (){
-	localStorage.setItem("name", eventName.value);
+function captureData (){
+	var id = Math.floor(Math.random()*100000001);
+	var item = {};
+		[item.name = "Name: ", eventName.value];
+		[item.description = "Description: ", eventDescription.value];
+		[item.date = "Date: ", eventDate.value];
+		[item.time = "Time: ", eventTime.value];
+		[item.sure = "Sure: ", sure.value];
+		[item.myEvent = "Sure Strength: ", myEvent.value];
+		[item.name = "Event: ", myEvent.value];
+		
+	localStorage.setItem(id, item);
 };
 
 
-var captureDescription = function(){
-	localStorage.setItem("description", eventDescription.value);
-};
-
-
-var captureDate = function(){
-	localStorage.setItem("date", eventDate.value);
-};
-
-var captureTime = function(){
-	localStorage.setItem("time", eventTime.value);
-};
-
-
-var captureSure = function(){
-	localStorage.setItem("sure strength", sure.value);
-	
-};
-
-var captureMyEvent = function(){
-	localStorage.setItem("event", myEvent.value);
-};
-
-var clearStorage = function(){
+function clearStorage(){
 	localStorage.clear();
 };
 
 
-var sendForm = function(){
+function sendForm(){
 	
 };
+
+
+function getForm(){
+	for(i=0, j=localStorage.length; i,j; i++);
+	var theKey = localStorage.key(i);
+	var theValue = localStorage.getItem(theKey);
+	
+	
+};
+
+
 
 //event listeners
 eventName.addEventListener("blur", captureName);
