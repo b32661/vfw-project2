@@ -1,3 +1,12 @@
+/*   additem.html
+*    Jeremy Criddle
+*    VFW 1302	
+*    Project 2
+*/
+
+
+
+
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #F7ECC9;
@@ -83,4 +92,4 @@ fieldset {
 	background-color: #FEDE52;
 }
 
-input.hasFocus {background-color: rgba(255,204,0,1)};
+

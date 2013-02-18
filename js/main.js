@@ -29,7 +29,8 @@ function captureData (){
 		[item.myEvent = "Sure Strength: ", myEvent.value];
 		[item.name = "Event: ", myEvent.value];
 		
-	localStorage.setItem(id, item);
+	localStorage.setItem(id, JSON.stringify(item));
+	alert("Time is Stomped");
 };
 
 
@@ -54,14 +55,9 @@ function getForm(){
 
 
 //event listeners
-eventName.addEventListener("blur", captureName);
-eventDescription.addEventListener("blur", captureDescription);
-eventDate.addEventListener("blur", captureDate);
-eventTime.addEventListener("blur", captureTime);
+
 clearData.addEventListener("click", clearStorage);
-send.addEventListener("click", sendForm);
-sure.addEventListener("change", captureSure);
-myEvent.addEventListener("change", captureMyEvent);
-// main code
+var save = document.getElementById("stomp");
+save.addEventListener("click", captureData);
 
 
